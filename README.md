@@ -4,3 +4,4 @@ This Access Manager system has been tested on the Raspberry PI 3 Model B+ runnin
 
 
 
+<img scr="accessmanager_mainmenu.png"/>
