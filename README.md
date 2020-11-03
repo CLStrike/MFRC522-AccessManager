@@ -4,4 +4,4 @@ This Access Manager system has been tested on the Raspberry PI 3 Model B+ runnin
 
 
 
-<img scr="accessmanager_mainmenu.png"/>
+![alt text](https://github.com/CLStrike/MFRC522-AccessManager/blob/main/accessmanager_mainmenu.pngraw=true)
