@@ -6,7 +6,7 @@ This Access Manager system has been tested on the Raspberry PI 3 Model B+ runnin
 
 ![alt text](https://github.com/CLStrike/MFRC522-AccessManager/raw/main/accessmanager_mainmenu.png)
 
-Please check out the following guide to setup the sensor this AccessManager requires:
+Please check out the following guide to setup the sensor that this AccessManager requires:
 https://pimylifeup.com/raspberry-pi-rfid-rc522/
 
 This AccessManager is assuming that you have installed:
