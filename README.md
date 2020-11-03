@@ -1,4 +1,4 @@
-| WARNING: This is not a finished product |
+| WARNING: This is not a finished product. |
 | --- |
 
 # MFRC522-AccessManager
