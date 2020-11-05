@@ -4,6 +4,7 @@ import os
 from mfrc522 import SimpleMFRC522
 import cgi
 
+#Use CGI to read out form data.
 form = cgi.FieldStorage()
 print("Content-Type: text/html\n\n")
 print("<html>")
@@ -15,10 +16,11 @@ department_stripped = department.strip()
 dep_data = str(data.split(",")[1])
 dep_data_stripped = dep_data.strip()
 
-command_data = "echo " + dep_data_stripped + "> data.txt" # To check the value of the card (data).
-os.system(command_data) # to check the value of the card (data).
-command = "echo " +  department_stripped +  "> department.txt" # To check value of dropdown list.
-os.system(command) # to check value of dropdown list.
+#The following commands do put a data.txt and department.txt file with the department value from the card. (I made it for troubleshooting.)
+#command_data = "echo " + dep_data_stripped + "> data.txt" # To check the value of the card (data).
+#os.system(command_data) # to check the value of the card (data).
+#command = "echo " +  department_stripped +  "> department.txt" # To check value of dropdown list.
+#os.system(command) # to check value of dropdown list.
 
 if department_stripped == dep_data_stripped:
         permission = "True"
