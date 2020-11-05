@@ -6,7 +6,6 @@ import cgi
 
 form = cgi.FieldStorage()
 
-
 if form.getvalue("rw_mode"):
         mode = form.getvalue("rw_mode")
 else:
