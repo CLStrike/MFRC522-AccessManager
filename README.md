@@ -11,7 +11,7 @@ This Access Manager system has been tested on the Raspberry PI 3 Model B+ runnin
 Please check out the following guide to setup the sensor that this AccessManager requires:
 https://pimylifeup.com/raspberry-pi-rfid-rc522/
 
-This AccessManager is assuming that you have installed:
+This AccessManager is assuming that you have the following dependencies/softwares installed:
 - Apache2
 - SimpleMFRC522
 - python3-dev
